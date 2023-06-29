@@ -14,6 +14,8 @@ spec:
       containers:
       - name: open-deployment-nginx
         image: nginx:1.21.6
+        ports:
+        - containerPort: 80
         resources:
           limits:
             memory: "64Mi"
