@@ -20,3 +20,10 @@ spec:
           limits:
             memory: "64Mi"
             cpu: "50m"
+        volumeMounts:
+        - name: cm
+          mountPath: /var/www/index/html/
+      volumes:
+      - name: cm
+        configMap:
+          name: open-configmap

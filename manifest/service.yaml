@@ -3,10 +3,9 @@ kind: Service
 metadata:
   name: open-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: open-deployment
   ports:
   - port: 80
-    targetPort: 80
-    nodePort: 30001
+
