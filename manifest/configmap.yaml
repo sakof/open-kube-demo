@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: open-configmap
 data:
-  final.txt: "Open/Adlere"
+  index.html: "Open/Adlere"

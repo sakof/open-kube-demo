@@ -22,7 +22,7 @@ spec:
             cpu: "50m"
         volumeMounts:
         - name: cm
-          mountPath: /var/www/index/html/
+          mountPath: /usr/share/nginx/html/
       volumes:
       - name: cm
         configMap:
