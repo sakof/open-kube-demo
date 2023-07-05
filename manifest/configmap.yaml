@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: open-configmap
 data:
-  index.html: "Open/Adlere"
+  index.html: "Open/Adlere: vous souhaitez vous lancer? Faites nous part de vos projets à ugap_cloud@open-groupe.com"
